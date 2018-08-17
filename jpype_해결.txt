@@ -1,0 +1,13 @@
+## 만약 jpype 에러가 발생하면 다음 절차를 따르시면 됩니다. 
+1. JAVA JDK 설치
+- http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html
+- JAVA JDK 설치
+- path 설정: http://cwj3688.blogspot.com 참조
+
+2. JPype 설치
+- https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype
+- JPype1-0.6.3-cp36-cp36m-win32.whl 다운로드
+	- cp36: Python 3.6 version, _win32: 32비트 Python 
+- 다운로드된 폴더에서 인스톨
+	- 일반 환경에서는 Prompt 열고: pip install JPype1-0.6.3-cp36-cp36m-win32.whl
+	- 아나콘다 환경에서 할 경우, Anaconda Prompt 열고 pip install JPype1-0.6.3-cp36-cp36m-win32.whl
